@@ -1,3 +1,10 @@
+.sp_only{
+    display: none;
+}
+.pc_only{
+    display: block;
+}
+
 /* header */
 
 .header-container{
