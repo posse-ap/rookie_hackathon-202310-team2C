@@ -15,15 +15,15 @@
         <div></div>
     </header>
 
-    <main>
+    <main class="main">
         <section class="section">
             <div class="hero">
                 <p class="hero_name ryuki">Ryuki</p>
                 <p class="hero_name kurosawa">Kurosawa</p>
             </div>
         </section>
-        <section class="section introduction">
-            <div class="title">
+        <section class="section side-padding">
+            <div class="title scroll-in">
                 <h1>-About Me-</h1>
             </div>
             <div class="about_me">
@@ -32,9 +32,12 @@
                         <img src="./assets/img/waseda.jpg" alt="waseda">
                     </figure>
                     <div class="delay scroll-in">
-                        <h2 class="text content">
-                            Waseda University<br>Advanced Science and Engneering
+                        <h2 class="text content_large">
+                            Waseda University
                         </h2>
+                        <h3 class="text content waseda">
+                            Advanced Science <br>&emsp;&emsp;&emsp;&<br> Engneering
+                        </h3>
                     </div>
                 </div>
                 <div class="img_text_block">
@@ -52,7 +55,7 @@
                         <img src="./assets/img/my-cafe.jpg" alt="cafe">
                     </figure>
                     <div class="delay scroll-in">
-                        <h2 class="text content">
+                        <h2 class="text content left">
                             大のスイーツ好きです。<br>ぜひ一緒にカフェ行きましょう！
                         </h2>
                     </div>
@@ -72,14 +75,133 @@
             </div>
         </section>
 
-        <section class="section">
-            <div class="title">
+        <section class="section side-padding">
+            <div class="title margin scroll-in">
                 <h1>-Members-</h1>
+            </div>
+            <div class="members">
+                <div class="img_text_block">
+                    <figure class="image-m scroll-in">
+                        <img src="./assets/img/kota.jpg" alt="kota">
+                    </figure>
+                    <div class="delay scroll-in">
+                        <h2 class="text name content">
+                            Kota Suzuki
+                        </h2>
+                        <p class="text member_text">
+                            poose②一番の天然ボーイ。<br>遅刻は二度としないとこの世に誓った男。将来の夢は韓流スター。
+                        </p>
+                    </div>
+                </div>
+                <div class="img_text_block">
+                    <figure class="image-m scroll-in">
+                        <img src="./assets/img/yui.jpg" alt="yui">
+                    </figure>
+                    <div class="delay scroll-in">
+                        <h2 class="text name content">
+                            Yui Haneda
+                        </h2>
+                        <p class="text member_text">
+                            poose②の裏番長。<br>次世代スタバの女神(ロゴの顔)を狙っている。<br>打倒ドン・ナツネ。
+                        </p>
+                    </div>
+                </div>
+                <div class="img_text_block">
+                    <figure class="image-m scroll-in">
+                        <img src="./assets/img/maho.jpg" alt="maho">
+                    </figure>
+                    <div class="delay scroll-in">
+                        <h2 class="text name content">
+                            Maho Kuboi
+                        </h2>
+                        <p class="text member_text">
+                            poose②のお姉ちゃん。<br>なんでもできちゃう神的存在。<br>恋愛相談したら超的確なアドバイス貰えます(ガチ)
+                        </p>
+                    </div>
+                </div>
+                <div class="img_text_block">
+                    <figure class="image-m scroll-in">
+                        <img src="./assets/img/kae.jpg" alt="kae">
+                    </figure>
+                    <div class="delay scroll-in">
+                        <h2 class="text name content">
+                            Kae Kodama
+                        </h2>
+                        <p class="text member_text">
+                            poose②の期待の新星。<br>すでにこうたは抜かしている。<br>打倒シャーロック・リンリン。
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
-    </main>
-    <script src="js/luxy.js"></script>
-    <script src="./assets/js/script_ryuki.js"></script>
-</body>
-</html>
+        <section class="section side-padding-form">
+            <div class="title form_top scroll-in">
+                <h1>-Comment-</h1>
+            </div>
+            <div class="form_container scroll-in">
+                <form id="commentForm" name="commentForm" class="comment_form">
+                    <dl class="form_list">
+                        <div class="comment_form_block">
+                            <dt class="item">POSSE</dt>
+                            <dd class="form_box white">
+                                <label><input type="radio" name="posse" value="POSSE①">POSSE①&emsp;</label>
+                                <label><input type="radio" name="posse" value="POSSE②">POSSE②&emsp;</label>
+                                <label><input type="radio" name="posse" value="POSSE③">POSSE③&emsp;</label>
+                            </dd>
+                        </div>
+                        <div class="comment_form_block">
+                            <dt class="item">期生</dt>
+                            <dd class="form_box white">
+                                <select class="select_box" name="age" id="age">
+                                    <option value="選択してください" selected disabled>選択してください</option>
+                                    <option value="1.0期生">1.0期生</option>
+                                    <option value="1.5期生">1.5期生</option>
+                                    <option value="2.0期生">2.0期生</option>
+                                    <option value="2.5期生">2.5期生</option>
+                                    <option value="3.0期生">3.0期生</option>
+                                    <option value="3.5期生">3.5期生</option>
+                                    <option value="4.0期生">4.0期生</option>
+                                    <option value="4.5期生">4.5期生</option>
+                                </select>
+                            </dd>
+                        </div>
+                        <div class="comment_form_block">
+                            <dt class="item"><label for="name">名前</label></dt>
+                            <dd class="form_box">
+                                <input class="input_box" id="name" type="text" name="name">
+                            </dd>
+                        </div>
+                        <div class="comment_form_block">
+                            <dt class="item">コメントしたい相手</dt>
+                            <dd class="form_box">
+                                <select class="select_box white" name="to_whom" id="to_whom">
+                                    <option value="選択してください" selected disabled>選択してください</option>
+                                    <option value="りゅうき">りゅうき</option>
+                                    <option value="こうた">こうた</option>
+                                    <option value="ゆい">ゆい</option>
+                                    <option value="まほ">まほ</option>
+                                    <option value="かえ">かえ</option>
+                                    <option value="横もくC">横もくC</option>
+                                </select>
+                            </dd>
+                        </div>
+                        <div class="comment_form_block">
+                            <dt class="item"><label for="content">コメントを入力</label></dt>
+                            <dd>
+                                <textarea class="form_box_large input_box" id="content" type="text" name="content"></textarea>
+                            </dd>
+                        </div>
+                    </dl>
+                    <div class="form_post">
+                        <button class="form_post_button">投票する</button>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+        </main>
+        <script src="./assets/js/script_ryuki.js"></script>
+        </body>
+
+        </html>

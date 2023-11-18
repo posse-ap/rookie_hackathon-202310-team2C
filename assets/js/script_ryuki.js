@@ -1,3 +1,5 @@
+const contactForm = document.getElementById('commentForm');
+
 //クラス名が「scroll-in」の要素を取得
 const objects = document.querySelectorAll('.scroll-in');
 
@@ -24,3 +26,14 @@ const io = new IntersectionObserver(cb, options);
 objects.forEach(object => {
     io.observe(object);
 });
+
+
+commentForm.addEventListener('submit', function(e){
+    e.preventDefault() ;
+    console.log(document.querySelector("input[name=posse]").value);
+    console.log(document.querySelector("select[name=age]").value);
+    console.log(document.querySelector("input[name=name]").value);
+    console.log(document.querySelector("select[name=to_whom]").value);
+    console.log(document.querySelector("textarea[name=content]").value);
+
+})
