@@ -1,0 +1,90 @@
+@media (max-height: 768px) {
+
+.jibun-text{
+    line-height: 50px;
+}
+
+.Yui{
+    font-size: 26px;
+    margin-top: 60px;
+}
+
+.Yui-h3{
+    font-size: 18px;
+}
+
+.h1{
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.h2{
+    font-size: 22px;
+    margin-top: 0;
+}
+.ryuki{
+    font-size: 20px;
+}
+
+.h3{
+    font-size: 16px;
+}
+
+.hobby{
+    margin-top: 24px;
+}
+
+.hobby img{
+    width: 100px;
+    height: 100px;
+}
+
+.member-text{
+    line-height: 20px;
+}
+
+.member-section{
+    /* display: flex; */
+    /* gap: 16px;
+    justify-content: center;
+    margin-top: 120px; */
+    flex-direction: column;
+    line-height: 20px;
+}
+
+.Kae-Kota{
+    display: flex;
+    margin-left: 52px;
+    gap: 20px;
+}
+
+.Maho-Ryuki{
+    display: flex;
+    margin-left: 52px;
+}
+
+.Kae img{
+    width: 120px;
+    height: 120px;
+}
+
+.Kota img{
+    width: 120px;
+    height: 120px;
+}
+
+.Maho img{
+    width: 120px;
+    height: 120px;
+}
+
+.Ryuki img{
+    width: 120px;
+    height: 120px;
+}
+
+
+
+
+
+}
