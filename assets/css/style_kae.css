@@ -13,7 +13,7 @@
     z-index: 10000;
 }
 
-.cclemon{
+.cclemon {
     position: fixed;
     top: 0px;
     left: 0px;
@@ -21,41 +21,41 @@
     height: 80px;
 }
 
-.headercontent{
+.headercontent {
     letter-spacing: 1px;
     /* padding: 20px; */
 }
 
 
 
-  .mainvisual {
+.mainvisual {
     background: url(../img/IMG_2756.JPG) center center / cover no-repeat;
     position: relative;
     width: 100%;
     height: 100vh;
-    padding: 40px 24px; 
+    padding: 40px 24px;
     display: flex;
     align-items: flex-end;
-  }
+}
 
- 
-.mainvisual-title{
+
+.mainvisual-title {
     position: absolute;
     bottom: 30px;
     right: 50px;
     font-size: 25px;
-    font-weight: 500; 
+    font-weight: 500;
     color: #FFFFFF;
     letter-spacing: 2px;
     font-family: 'Noto Serif JP', serif;
 }
 
-.all{
+.all {
     margin: 20px 100px;
     font-family: 'Noto Serif JP', serif;
 }
 
-.introduction{
+.introduction {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -67,125 +67,126 @@
     margin-bottom: 100px;
 }
 
-.mypicture-top{
-}
+.mypicture-top {}
 
-.mypicture{
+.mypicture {
     border-radius: 50%;
-    width:200px;
-    height:200px;
-    margin:0px 30px;
+    width: 200px;
+    height: 200px;
+    margin: 0px 30px;
 }
 
-.content{
-    width:500px;
-    height:250px;
+.content {
+    width: 500px;
+    height: 250px;
     padding: 30px;
 }
-.myname{
+
+.myname {
     font-size: 25px;
     margin: 20px;
 }
 
-.myprofile{
-    margin:0px 20px;
+.myprofile {
+    margin: 0px 20px;
     line-height: 1.8;
 }
 
 
-.member{
+.member {
     flex-direction: column;
 }
 
-.memberlist-title{
+.memberlist-title {
     align-items: center;
     margin: 50px;
 }
-.title{
+
+.title {
     text-align: center;
     font-size: 30px;
 }
 
-.memberlist{
+.memberlist {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
 }
 
-.topmemberlist{
-    display:flex;
+.topmemberlist {
+    display: flex;
     align-items: center;
-    gap:50px;
+    gap: 50px;
 }
 
-.undermemberlist{
-    display:flex;
+.undermemberlist {
+    display: flex;
     align-items: center;
-    gap:50px;
+    gap: 50px;
 }
 
-.cmem{
+.cmem {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
     border: solid orange;
-    margin:20px;
+    margin: 20px;
     padding: 0px 20px;
     width: 350px;
-    height:420px;
+    height: 420px;
     color: black;
 }
 
-.membername{
+.membername {
     font-size: 25px;
     text-align: center;
     margin: 20px;
 }
 
-.memberpicture-top{
+.memberpicture-top {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 300px;
-    height:200px;
+    height: 200px;
 }
 
-.memberpicture{
+.memberpicture {
     border-radius: 10px;
     width: 300px;
-    height:200px;
+    height: 200px;
     /* margin-left: 5px; */
 }
 
-.memberprofile{
-    margin:20px;
+.memberprofile {
+    margin: 20px;
 }
 
-.footer{
+.footer {
     height: 50px;
     width: 100%;
     background-color: bisque;
     z-index: 10000;
 }
 
-.footercontent{
+.footercontent {
     font-size: 10px;
     text-align: center;
     margin-top: 50px;
     padding: 20px;
     letter-spacing: 1px;
-    }
-
-.fade{
-    animation: shading 4s linear 0s 1 normal;
 }
-     
+
+.fade {
+    animation: shading 5s linear 0s 1 normal;
+}
+
 @keyframes shading {
     0% {
         opacity: 0;
     }
-     
+
     100% {
         opacity: 1;
     }
@@ -194,6 +195,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 .pagetop {
     height: 50px;
     width: 50px;
@@ -215,4 +217,20 @@ html {
     border-top: 3px solid #000;
     border-right: 3px solid #000;
     transform: translateY(20%) rotate(-45deg);
+}
+
+.zoomIn {
+    animation: zoomIn 2.0s ease 0s 1 normal;
+}
+
+/* zoomIn */
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale3d(0.3, .3, 0.3)
+    }
+
+    50% {
+        opacity: 1
+    }
 }
