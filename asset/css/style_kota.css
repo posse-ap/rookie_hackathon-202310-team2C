@@ -1,0 +1,129 @@
+.header {
+    background-color: aqua;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+main {
+    margin-top: 70px;
+}
+
+.my-profile {
+    padding-top: 50px;
+    background-color: azure;
+}
+
+.my-profile-block {
+    display: flex;
+    margin-left: 50px;
+    gap: 30px;
+}
+
+.profile-content {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-my-profile {
+    text-align: center;
+    font-size: 80px;
+}
+
+.profile-content {
+    
+}
+
+.name-block {
+
+}
+
+.name {
+    font-size: 40px;
+}
+
+.myname {
+    font-size: 20px;
+}
+
+.university {
+
+}
+
+.daigaku {
+    font-size: 40px;
+}
+
+.aoyama {
+    font-size: 20px;
+}
+
+.hobby-bock {
+
+}
+
+.hobby {
+    font-size: 40px;
+}
+
+.hobby-content {
+
+}
+
+.music {
+    font-size: 20px;
+}
+
+.speak {
+    font-size: 20px;
+}
+
+.suimin {
+    font-size: 20px;
+}
+
+.img-01 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-01-img {
+    width: auto;
+    height: 250px;
+    border-radius: 30px;
+    
+}
+
+.img-02 {
+
+   position: relative;
+}
+
+.img-02-img {
+    
+    height: auto;
+    width: 250px;
+    border-radius: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.yokumoku-profile {
+    padding-top: 50px;
+    
+}
+
+.yokomoku-cotent {
+    text-align: center;
+}
