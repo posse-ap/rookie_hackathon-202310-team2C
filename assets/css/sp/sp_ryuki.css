@@ -76,24 +76,17 @@
         margin: 20px 0;
     }
     .name{
-        font-size: 10px;
-        font-weight: bold;
-        color: rgba(255, 255, 255, 0.532);
-        margin-bottom: 60px;
+        font-size: 50px;
     }
     .member_text{
-        font-size: 10px;
-        line-height: 2.0;
-        width: 100px;
-        margin: 0 20px;
+        width: 90%;
     }
     .image-m{
-        width: 100px;
+        width: 90%;
     }
-    .image-m img{
-        border-radius: 25px;
+    .text{
+        font-size: 15px;
     }
-    
 
 
 
