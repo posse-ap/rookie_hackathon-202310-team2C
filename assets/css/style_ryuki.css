@@ -1,0 +1,61 @@
+.hero{
+    background-image: url(../img/hero-my-img.JPG);
+    height: 100vh;
+    background-size: cover;
+    position:relative;
+}
+
+.hero_name{
+    font-size: 150px;
+}
+
+.ryuki{
+    position: absolute;
+    left: -80px;
+    top: 150px;
+    transform: rotate(90deg);
+    color: rgba(0, 0, 0, 0.705) ;
+}
+.kurosawa{
+    position: absolute;
+    left: 75px;
+    bottom: 0px;
+    color: rgba(199, 194, 194, 0.532);
+}
+
+/* main共通 */
+.section{
+    background-color: black;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+}
+.text{
+    color: white;
+}
+.image{
+    width: 400px;
+}
+.image img{
+    border-radius: 30px;
+}
+
+.content{
+    font-size: 30px;
+    width: 400px;
+    /* margin-left: 30px; */
+}
+.img_text_block{
+    display: flex;
+}
+.img_text_block:nth-of-type(odd){
+    flex-direction: row-reverse;
+    margin-right: 15%;
+}
+.img_text_block:nth-of-type(even){
+    margin-left: 15%;
+}
+
