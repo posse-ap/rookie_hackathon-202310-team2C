@@ -176,18 +176,3 @@
     padding: 20px;
     letter-spacing: 1px;
     }
-
-
-
-.slideinLeft {
-    animation: slideinLeft 3s infinite;
-  }
-  
-  @keyframes slideinLeft {
-    0% {
-      transform: translateX(-50px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
