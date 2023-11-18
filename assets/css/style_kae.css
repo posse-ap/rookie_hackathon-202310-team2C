@@ -1,0 +1,144 @@
+.header{
+    /* display: flex; */
+    align-items: center;
+    height: 80px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFFFFF; 
+    border-bottom: solid 1px #EEEEEE; 
+    padding: 0 24px; 
+    z-index: 10000; 
+
+}
+
+.headercontent{
+    text-align: center;
+}
+
+.teampicture{
+    position: relative;
+    width: 100%;
+    /* height: 200px; */
+    background-color: bisque;
+}
+
+.onthepicture{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+/* .mainvisual {
+    background: url(./assets/img/IMG_2758.JPG) center center / cover no-repeat;
+    height: 100vh;
+    padding: 40px 24px; 
+    display: flex;
+    align-items: flex-end;
+  } */
+
+.all{
+    margin: 20px 100px;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid orange;
+    border-radius: 10px;
+    color: black;
+    width: auto;
+}
+
+.mypicture{
+    width:500px;
+    height:250px;
+}
+
+.content{
+    width:500px;
+    height:250px;
+    padding: 30px;
+}
+.myname{
+    font-size: 25px;
+    margin: 20px;
+}
+
+.myprofile{
+    margin:0px 20px;
+    line-height: 1.8;
+}
+
+
+.member{
+    flex-direction: column;
+}
+
+.memberlist-title{
+    align-items: center;
+    margin: 50px;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.memberlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.topmemberlist{
+    display:flex;
+    align-items: center;
+    gap:100px;
+}
+
+.undermemberlist{
+    display:flex;
+    align-items: center;
+    gap:100px;
+}
+
+.cmem{
+    border: solid orange;
+    margin:20px;
+    padding: 20px;
+    width: 350px;
+    height:500px;
+    color: black;
+}
+
+.membername{
+    font-size: 25px;
+}
+
+.memberpicture-top{
+    width: 300px;
+    height:200px;
+}
+
+.memberpicture{
+    width: 300px;
+    height:200px;
+}
+
+.memberprofile{
+}
+
+.footer{
+    height: 80px;
+    width: 100%;
+    background-color: bisque; 
+    z-index: 10000; 
+}
+
+.footercontent{
+    text-align: center;
+}
