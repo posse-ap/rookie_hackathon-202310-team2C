@@ -1,0 +1,71 @@
+@media (max-width: 768px) {
+    .header-container{
+        font-size: 15px;
+    }
+    .header-menu{
+        padding-right:20px ;
+    }
+    .header-menu-content{
+        padding: 5px 5px;
+    }
+    .hero{
+        background-image: url(../../img/sp-hero-img.JPG);
+    }
+    .hero_name{
+        font-size: 50px;
+    }
+
+
+    .content{
+        font-size: 10px;
+        width: 100px;
+        margin: 10px;
+    }
+    .content_large{
+        font-size: 10px;
+        /* width: 400px; */
+        margin: 10px;
+    }
+    .waseda{
+        margin-left: 10px;
+    }
+
+
+
+    .margin{
+        margin: 20px 0;
+    }
+    .name{
+        font-size: 10px;
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.532);
+        margin-bottom: 60px;
+    }
+    .member_text{
+        font-size: 10px;
+        line-height: 2.0;
+        width: 100px;
+        margin: 0 20px;
+    }
+    .image-m{
+        width: 100px;
+    }
+    .image-m img{
+        border-radius: 25px;
+    }
+    
+
+
+
+
+    .form_box_large{
+        width: 60px;
+        border: solid 1px #ffffff;
+    }
+    .item{
+        color: #ffffff;
+        padding: 10px 20px;
+        margin-left: 20px;
+        width: 60px;
+    }
+}

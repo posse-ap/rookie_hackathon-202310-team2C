@@ -1,6 +1,35 @@
+/* header */
+
+.header-container{
+    font-family: 'Noto Serif JP', serif;
+    color: #717171;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    height: 50px;
+}
+.header{
+    width:100%;
+    position:fixed;
+    padding: 10px;
+    z-index: 100000;
+}
+.header-menu{
+    display: flex;
+    margin: 0 0 0 auto;
+    padding-right:50px ;
+}
+.header-menu-content{
+    padding: 10px 40px;
+}
+
+
+/* hero */
+
 .hero{
     background-image: url(../img/hero-my-img.JPG);
     height: 100vh;
+    width: auto;
     background-size: cover;
     position:relative;
     font-family: 'Noto Serif JP', serif;
@@ -13,8 +42,8 @@
 
 .ryuki{
     position: absolute;
-    left: -80px;
-    top: 150px;
+    left: -5%;
+    top: 35%;
     transform: rotate(90deg);
     color: rgba(0, 0, 0, 0.705) ;
 }
@@ -45,7 +74,7 @@
     line-height: 150%;
 }
 .image{
-    width: 500px;
+    width: 40%;
 }
 .image img{
     border-radius: 25px;
@@ -76,7 +105,7 @@
     margin-left: 15%;
 }
 .margin{
-    margin: 200px 0 400px 0;
+    margin: 200px 0;
 }
 .name{
     font-size: 100px;
@@ -99,9 +128,6 @@
 
 
 
-.form_container{
-
-}
 
 .comment_form_block{
     display: flex;
@@ -129,7 +155,7 @@
 }
 
 .side-padding-form{
-    padding: 20%;
+    padding: 0 20%;
 }
 .form_top{
     margin-bottom: 100px;
@@ -179,3 +205,16 @@
         transform: translateY(-100px);
     }
 }
+
+
+
+
+
+.footer{
+    background-color: #717171;
+    text-align: center;
+    font-size: 15px;
+    color: aliceblue;
+    padding: 20px;
+}
+
