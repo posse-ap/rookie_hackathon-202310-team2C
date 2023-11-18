@@ -1,0 +1,35 @@
+.moji{
+    text-align: right;
+    margin-right: 20px;
+}
+
+/* .jibun{
+    display: flex;
+} */
+
+.jibun-text{
+    text-align: center;
+    margin-top: 50px;
+    line-height: 50px;
+}
+
+.h1{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.h2{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.barbie {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.barbie img{
+    border-radius: 50%;
+}
