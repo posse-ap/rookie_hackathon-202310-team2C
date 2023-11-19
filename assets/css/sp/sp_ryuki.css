@@ -80,25 +80,31 @@
     }
     .member_text{
         width: 90%;
+        font-size: 15px;
     }
     .image-m{
         width: 90%;
     }
-    .text{
-        font-size: 15px;
-    }
 
 
 
 
-    .form_box_large{
-        width: 60px;
-        border: solid 1px #ffffff;
-    }
     .item{
-        color: #ffffff;
-        padding: 10px 20px;
-        margin-left: 20px;
-        width: 60px;
+        padding: 10px 0 10px 10px;
+        margin-left: 0px;
+        width: 30%;
     }
+    .input_box{
+        width: 200px;
+    }
+    .side-padding-form{
+        padding: 0 ;
+    }
+    .form_top{
+        margin-bottom: 100px;
+    }
+    .posse{
+        width: 40px;
+    }
+
 }
