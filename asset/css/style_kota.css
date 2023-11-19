@@ -1,18 +1,32 @@
 .header {
-    background-color: aqua;
+    background-color: gray;
     height: 10vh;
     width: 100%;
     position: fixed;
     top: 0;
 }
 
+.cclemon-logo {
+    width: auto;
+    height: 10vh;
+}
+
+body {
+    font-family: 'Klee One', cursive;
+}
+
 main {
     margin-top: 70px;
 }
 
+.divdiv-my-profile {
+    padding-bottom: 50px;
+}
+
 .my-profile {
     padding-top: 50px;
-    background-color: azure;
+    background-color: rgba(141, 194, 144, 0.819);
+    padding-bottom: 100px;
 }
 
 .my-profile-block {
@@ -30,10 +44,11 @@ main {
 .div-my-profile {
     text-align: center;
     font-size: 80px;
+    font-weight: bold;
 }
 
 .profile-content {
-    
+    border: solid 3px;
 }
 
 .name-block {
@@ -45,7 +60,8 @@ main {
 }
 
 .myname {
-    font-size: 20px;
+    margin-left: 10px;
+    font-size: 30px;
 }
 
 .university {
@@ -57,6 +73,7 @@ main {
 }
 
 .aoyama {
+    margin-left: 10px;
     font-size: 20px;
 }
 
@@ -69,19 +86,25 @@ main {
 }
 
 .hobby-content {
-
+   gap: 10px;
 }
 
 .music {
-    font-size: 20px;
+    font-size: 30px;
 }
 
+
 .speak {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .suimin {
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.img-block-10 {
+    display: flex;
+    gap:30px ;
 }
 
 .img-01 {
@@ -94,12 +117,12 @@ main {
     width: auto;
     height: 250px;
     border-radius: 30px;
+
     
 }
 
 .img-02 {
-
-   position: relative;
+    
 }
 
 .img-02-img {
@@ -110,7 +133,20 @@ main {
 
 }
 
+.click_here:hover {
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+}
 
+.click_here {
+    text-align: right;
+    margin-right: 200px;
+}
+
+.click_here-block {
+    
+}
 
 
 
@@ -120,10 +156,171 @@ main {
 
 
 .yokumoku-profile {
-    padding-top: 50px;
+
     
 }
 
 .yokomoku-cotent {
+    border: solid 3px;
+    background-color: gray;
     text-align: center;
+    font-size: 50px;
 }
+
+.a {
+    opacity: 0.4;
+
+}
+
+.ryuuki-block {
+
+}
+
+.figure-ryuuki {
+    position: relative;
+    z-index: -10000;
+}
+
+.ryuuki-content-block {
+
+}
+
+.ryuuki {
+    font-weight: bold;
+    font-size: 100px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+}
+
+.ryuuki-content {
+    font-size: 40px;
+    width: 300px;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    font-weight: bold;
+}
+
+.maho-block {
+    
+}
+
+.figure-maho {
+    position: relative;
+    z-index: -10000;
+}
+
+.maho-content-block {
+   
+}
+
+.maho {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.maho-content {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    font-size: 40px;
+    width: 300px;
+    font-weight: bold;
+}
+
+
+.kae-block {
+
+}
+
+
+.figure-kae {
+    position: relative;
+    z-index: -10000;
+}
+
+.kae-content-block {
+
+}
+
+.kae {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.kae-content {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    font-size: 40px;
+    width: 300px;
+    font-weight: bold;
+}
+
+
+.yui-block {
+
+}
+
+.figure-yui {
+    position: relative;
+    z-index: -10000;
+}
+
+.yui-content-block {
+  
+}
+
+.yui {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 100px;
+}
+
+.yui-content {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    font-size: 40px;
+    width: 300px;
+    font-weight: bold;
+}
+
+
+
+
+.footer-yokomoku {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    background-color: gray;
+    border: solid 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

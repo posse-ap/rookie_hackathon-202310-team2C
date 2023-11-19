@@ -1,0 +1,47 @@
+@media screen and (max-width:480px) {
+
+
+   .my-profile-block {
+     display: flex;
+     flex-direction: column;
+     margin-right: 30px;
+   } 
+
+      .ryuuki {
+        font-size: 40px;
+        font-weight: bold;
+}
+    .ryuuki-content {
+        font-size: 15px;
+        width: 100px ;
+    }
+
+    .kae {
+        font-size: 40px;
+        font-weight: bold;
+}
+    .kae-content {
+        font-size: 15px;
+        width: 100px ;
+    }
+
+    .maho {
+        font-size: 40px;
+        font-weight: bold;
+}
+    .maho-content {
+        font-size: 15px;
+        width: 100px ;
+    }
+
+    .yui {
+        font-size: 40px;
+        font-weight: bold;
+}
+    .yui-content {
+        font-size: 15px;
+        width: 100px ;
+    }
+
+
+}
