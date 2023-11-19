@@ -1,0 +1,110 @@
+@media (max-width: 768px) {
+    .pc_only{
+        display: none;
+    }
+    .sp_only{
+        display: block;
+    }
+    /* header */
+    .header-container{
+        font-size: 10px;
+    }
+    .header-menu{
+        padding-right:20px ;
+    }
+    .header-menu-content{
+        padding: 5px 5px;
+    }
+
+    /* hero */
+    .hero{
+        background-image: url(../../img/sp-hero-img.JPG);
+    }
+    .hero_name{
+        font-size: 87px;
+    }
+    .ryuki{
+        left: -10%;
+        top: 45%;
+    }
+    .kurosawa{
+        position: absolute;
+        left: 15px;
+        bottom: 10px;
+    }
+
+    /* about me */
+    .title{
+        font-size: 35px;
+        padding-top: 200px;
+    }
+    .img_text_block{
+        text-align: center;
+        align-items: center;
+    }
+    .image{
+        width: 90%;
+    }
+    .content{
+        font-size: 15px;
+        width: 100%;
+        margin: 10px;
+    }
+    .content_large{
+        font-size: 25px;
+    }
+    .waseda{
+        margin-left: 10px;
+    }
+    .img_text_block{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0;
+    }
+    .img_text_block:nth-of-type(odd){
+        flex-direction: column;
+        margin-right: 0;
+    }
+    .img_text_block:nth-of-type(even){
+        margin-left: 0;
+    }.img_text_block{
+        display: flex;
+    }
+
+    /* member */
+    .margin{
+        margin: 20px 0;
+    }
+    .name{
+        font-size: 50px;
+    }
+    .member_text{
+        width: 90%;
+        font-size: 15px;
+    }
+    .image-m{
+        width: 90%;
+    }
+
+
+
+
+    .item{
+        padding: 10px 0 10px 10px;
+        margin-left: 0px;
+        width: 30%;
+    }
+    .input_box{
+        width: 200px;
+    }
+    .side-padding-form{
+        padding: 0 ;
+    }
+    .form_top{
+        margin-bottom: 100px;
+    }
+    .posse{
+        width: 40px;
+    }
+
+}

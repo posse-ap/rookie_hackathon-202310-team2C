@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP&family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+</head>
+
+<body>
+    <main class="main">
+        <section>
+            <div class="open_day">
+                <h1 class="title">営業日</h1>
+                <ul class="day_list letter">
+                    <li class="day">
+                        <div class="week">月曜日</div>
+                        <div class="week_detail">11:00~22:00</div>
+                    </li>
+                    <li class="day">
+                        <div class="week">火曜日</div>
+                        <div class="week_detail">定休日</div>
+                    </li>
+                    <li class="day">
+                        <div class="week">水曜日</div>
+                        <div class="week_detail">11:00~22:00</div>
+                    </li>
+                    <li class="day">
+                        <div class="week">木曜日</div>
+                        <div class="week_detail">定休日</div>
+                    </li>
+                    <li class="day">
+                        <div class="week">金曜日</div>
+                        <div class="week_detail">11:00~24:00</div>
+                    </li>
+                    <li class="day">
+                        <div class="week">土曜日</div>
+                        <div class="week_detail">11:00~24:00</div>
+                    </li>
+                    <li class="day">
+                        <div class="week">日曜日</div>
+                        <div class="week_detail">11:00~24:00</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="contact_section">
+            <div>
+                <h1 class="title">お問い合わせ</h1>
+            </div>
+            <div class="form_section letter">
+                <div class="form_description">
+                    <h3 class="letter">ご質問やご意見などございましたらお気軽にお問い合わせください</h3>
+                </div>
+                <div class="form_container">
+                    <form id="questionForm" name="questionForm" class="question_form">
+                        <dl class="form_list">
+                            <div class="question_form_block">
+                                <dt class="item"><label for="name">名前</label></dt>
+                                <dd class="form_box">
+                                    <input class="input_box" id="name" type="text" name="name">
+                                </dd>
+                            </div>
+
+                            <div class="question_form_block">
+                                <dt class="item">お問い合わせ項目</dt>
+                                <dd class="form_box">
+                                    <select class="age_box" name="age" id="age">
+                                        <option value="選択してください" selected disabled>選択してください</option>
+                                        <option value="under_10">メニューについて</option>
+                                        <option value="10~">営業時間について</option>
+                                        <option value="20~">シャーロック・リンリンについて</option>
+                                        <option value="30~">30代</option>
+                                        <option value="40~">40代</option>
+                                        <option value="50~">50代</option>
+                                        <option value="60~">60代</option>
+                                        <option value="70~">70歳以上</option>
+                                    </select>
+                                </dd>
+                            </div>
+                            <div class="colum">
+                                <dt class="item_large"><label for="content">お問い合わせ内容</label></dt>
+                                <dd>
+                                    <textarea class="form_box_large text_box" id="content" type="text"
+                                        name="content"></textarea>
+                                </dd>
+                            </div>
+                        </dl>
+                        <div class="form_post">
+                            <button class="form_post_button">送信する</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-text">
+                <p>横もくC 新人ハッカソン</p>
+            </div>
+        </footer>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
